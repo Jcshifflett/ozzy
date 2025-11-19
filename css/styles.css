@@ -1,0 +1,50 @@
+*{scroll-behavior:smooth;}
+body{background-image:url(https://live.staticflickr.com/2845/9263078461_c6d8c0eec6_z.jpg);margin:0;}
+#logo{max-width:200px; height:75px;display:block;}
+
+h1{color:white;font-family:'Metal Mania', cursive;text-align:center;}
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;background: linear-gradient(
+    rgba(27, 27, 50, 0.8),  
+    rgba(27, 27, 50, 0.2)   
+  );;
+}
+
+nav {
+  width: auto;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 200px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Metal Mania', cursive;
+  font-size: 16px;}
+
+.img-container{display:flex;justify-content:center;}
+figcaption{color:white;text-align:center;margin-top:10px;font-family: 'Metal Mania', cursive;}
+section h1{text-align:left;}
+p{color:white;max-width:70%;}
+section{display:flex;align-items:flex-start}
+.sabbath-h1{color:white;font-family:'Metal Mania', cursive;text-align:left;font-size:20px}
+section img{margin:auto;border-radius:0;background-color:white;padding:10px 10px 30px 10px;height:300px;width:300px;object-fit:cover;filter:saturate(40%);}
+figure img{margin:auto;border-radius:0;background-color:white;padding:10px 10px 30px 10px;height:300px;width:300px;object-fit:cover;filter:saturate(40%);}
+figcaption{margin-top:20px;}
+.step-2{display:flex;align-items:flex-start;}
+.three{display:flex;align-items:flex-start;}
